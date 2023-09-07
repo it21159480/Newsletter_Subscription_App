@@ -2,7 +2,7 @@ import * as React from 'react';
 import { View, Button, Text, StyleSheet, Pressable, Image } from 'react-native';
 
 const WelcomeScreen = ({ navigation }) => {
-  // Add welcome screen code here.
+  // welcome screen code
   return (
     <View style={styles.container}>
       <Image
@@ -10,7 +10,7 @@ const WelcomeScreen = ({ navigation }) => {
         source={require('../assets/little-lemon-logo.png')}
         resizeMode='center'
         accessible={true}
-        accessibilityLabel={'Little Lemon Logo'} />
+        accessibilityLabel= {'Little Lemon Logo'} />
       <Text style={styles.message}>Little Lemon, your local Mediterranean Bistro</Text>
       <Pressable onPress={() => navigation.navigate('Subscribe')}
         style={
