@@ -11,7 +11,7 @@ const SubscribeScreen = () => {
     return (
       <Pressable
         onPress={onPress}
-        style={[styles.buttonContainer, disabled && styles.disabled]}
+        style= {[styles.buttonContainer, disabled && styles.disabled]}
         disabled={disabled}
       >
         <Text style={styles.btn}>{children}</Text>
@@ -19,7 +19,7 @@ const SubscribeScreen = () => {
     );
   };
 
-  // Add subscribe screen code here
+  // subscribe screen code
   return (
     <View style={styles.container}>
 
@@ -28,7 +28,7 @@ const SubscribeScreen = () => {
         source={require('../assets/little-lemon-logo-grey.png')}
         resizeMode='center'
         accessible={true}
-        accessibilityLabel={'Little Lemon Logo'} />
+        accessibilityLabel= {'Little Lemon Logo'} />
       <Text style={styles.message}>Subscribe to our newsletter for our latest delicious recipes!</Text>
       <TextInput
         style={styles.inputBox}
