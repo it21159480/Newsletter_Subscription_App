@@ -11,9 +11,9 @@ const RootNavigator = () => {
       screenOptions={{
         headerTitleAlign: 'center',
       }}>
-      {/* Set up stack navigation to move between welcome screen and subscribe screen here */}
-      <Stack.Screen name='Welcome' component={WelcomeScreen} />
-      <Stack.Screen name='Subscribe' component={SubscribeScreen} />
+      {/* stack navigation to move between welcome screen and subscribe screen */}
+      <Stack.Screen name='Welcome' component= {WelcomeScreen} />
+      <Stack.Screen name='Subscribe' component= {SubscribeScreen} />
     </Stack.Navigator>
   );
 };
