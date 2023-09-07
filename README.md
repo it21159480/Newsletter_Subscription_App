@@ -1,2 +1,5 @@
-# Newsletter_Subscription_App
-Mobile Application Development with React Native and Expo CLI using vsCode 
+## Little Lemon
+
+This is the code example for the newsletter subscription application.
+
+![](little_lemon.gif)
