@@ -1,4 +1,4 @@
-## Little Lemon
+## Little Lemon - Newsletter Subscription Application
 
 This is the code example for the newsletter subscription application.
 
